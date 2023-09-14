@@ -1,0 +1,75 @@
+INFO: 2023-07-21 12:34:44,522: Start data training with random forest model
+INFO: 2023-07-21 12:34:49,148: Train RandomForestRegressor
+INFO: 2023-07-21 12:34:49,829: MAE: 788.8538823272727
+							   MSE:1257590.822483692
+							   RMSE:1121.4235696130575
+INFO: 2023-07-21 12:34:49,904: --------------------------------------------------
+INFO: 2023-07-21 12:34:49,904: Start Hyper-Parameter Tuning
+INFO: 2023-07-21 12:46:38,217: RandomizedSearchCV(cv=5, estimator=RandomForestRegressor(), n_jobs=1,
+                   param_distributions={'max_depth': [5, 10, 15, 20, 25, 30],
+                                        'max_features': ['auto', 'sqrt'],
+                                        'min_samples_leaf': [1, 2, 5, 10],
+                                        'min_samples_split': [2, 5, 10, 15,
+                                                              100],
+                                        'n_estimators': [100, 200, 300, 400,
+                                                         500, 600, 700, 800,
+                                                         900, 1000, 1100,
+                                                         1200]},
+                   random_state=42, scoring='neg_mean_squared_error',
+                   verbose=2)
+INFO: 2023-07-21 12:46:38,414: Best Paramteres:{'n_estimators': 300, 'min_samples_split': 100, 'min_samples_leaf': 5, 'max_features': 'auto', 'max_depth': 15}
+INFO: 2023-07-21 12:46:39,142: R2: 0.5943505321597234
+							   MAE: 742.5498486567134
+							   MSE:1105542.7563281613
+							   RMSE:1051.4479332464168
+INFO: 2023-07-21 12:46:39,193: --------------------------------------------------
+INFO: 2023-07-22 21:59:21,155: Start data training with random forest model
+INFO: 2023-07-22 21:59:25,654: Train RandomForestRegressor
+INFO: 2023-07-22 21:59:26,267: MAE: 789.2673773196481
+							   MSE:1257956.345984305
+							   RMSE:1121.5865307609151
+INFO: 2023-07-22 21:59:26,353: --------------------------------------------------
+INFO: 2023-07-22 21:59:26,353: Start Hyper-Parameter Tuning
+INFO: 2023-07-22 22:11:13,607: RandomizedSearchCV(cv=5, estimator=RandomForestRegressor(), n_jobs=1,
+                   param_distributions={'max_depth': [5, 10, 15, 20, 25, 30],
+                                        'max_features': ['auto', 'sqrt'],
+                                        'min_samples_leaf': [1, 2, 5, 10],
+                                        'min_samples_split': [2, 5, 10, 15,
+                                                              100],
+                                        'n_estimators': [100, 200, 300, 400,
+                                                         500, 600, 700, 800,
+                                                         900, 1000, 1100,
+                                                         1200]},
+                   random_state=42, scoring='neg_mean_squared_error',
+                   verbose=2)
+INFO: 2023-07-22 22:11:13,711: Best Paramteres:{'n_estimators': 300, 'min_samples_split': 100, 'min_samples_leaf': 5, 'max_features': 'auto', 'max_depth': 15}
+INFO: 2023-07-22 22:11:14,305: R2: 0.5939441480099481
+							   MAE: 742.7968542078639
+							   MSE:1106650.3013607303
+							   RMSE:1051.9744775234474
+INFO: 2023-07-22 22:11:14,365: --------------------------------------------------
+INFO: 2023-07-23 09:50:45,555: Start data training with random forest model
+INFO: 2023-07-23 09:50:50,360: Train RandomForestRegressor
+INFO: 2023-07-23 09:50:50,964: MAE: 791.6124850240469
+							   MSE:1264869.3545893584
+							   RMSE:1124.6641074513575
+INFO: 2023-07-23 09:50:51,054: --------------------------------------------------
+INFO: 2023-07-23 09:50:51,056: Start Hyper-Parameter Tuning
+INFO: 2023-07-23 10:03:22,874: RandomizedSearchCV(cv=5, estimator=RandomForestRegressor(), n_jobs=1,
+                   param_distributions={'max_depth': [5, 10, 15, 20, 25, 30],
+                                        'max_features': ['auto', 'sqrt'],
+                                        'min_samples_leaf': [1, 2, 5, 10],
+                                        'min_samples_split': [2, 5, 10, 15,
+                                                              100],
+                                        'n_estimators': [100, 200, 300, 400,
+                                                         500, 600, 700, 800,
+                                                         900, 1000, 1100,
+                                                         1200]},
+                   random_state=42, scoring='neg_mean_squared_error',
+                   verbose=2)
+INFO: 2023-07-23 10:03:22,962: Best Paramteres:{'n_estimators': 300, 'min_samples_split': 100, 'min_samples_leaf': 5, 'max_features': 'auto', 'max_depth': 15}
+INFO: 2023-07-23 10:03:23,625: R2: 0.592708236271986
+							   MAE: 743.1052390358826
+							   MSE:1110018.611632748
+							   RMSE:1053.5742079382676
+INFO: 2023-07-23 10:03:23,667: --------------------------------------------------
